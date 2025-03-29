@@ -1,0 +1,47 @@
+/* Estilo para o corpo da página */
+body {
+    background-color: #191919; /* Fundo escuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Fonte */
+}
+
+/* Container do relógio */
+#clock-container {
+    display: flex; /* Usamos flexbox para alinhar a data e a hora dentro da mesma caixa */
+    flex-direction: column; /* Organiza os itens (data e hora) em coluna */
+    align-items: center; /* Centraliza os itens dentro da caixa */
+    justify-content: center; /* Garante que os itens fiquem centralizados verticalmente */
+    background-color: #191919; /* Cor de fundo da caixa */
+    padding: 10px;
+    border-radius: 12px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Sombra para dar destaque */
+}
+
+/* Estilo para a data */
+#date {
+    font-size: 25px; /* Tamanho da fonte da data (menor que a hora) */
+    color: #f2f2f2; /* Cor da data igual à da hora (tom pastel de branco) */
+    margin-bottom: 0px; /* Distância reduzida entre a data e a hora (4px) */
+    margin-top: 8px; /* Margem superior da data */
+    margin-left: 8px; /* Margem esquerda da data */
+    margin-right: 8px; /* Margem direita da data */
+}
+
+/* Estilo para o relógio digital */
+#clock {
+    font-size: 40px; /* Tamanho da fonte */
+    color: #f2f2f2; /* Cor das horas em um tom pastel de branco */
+    background-color: #191919; /* Cor de fundo do relógio */
+    padding: 4px;
+    border-radius: 12px; /* Bordas arredondadas */
+    text-align: center;
+    width: fit-content; /* Ajusta a largura automaticamente */
+    margin-top: 4px; /* Margem superior do relógio */
+    margin-bottom: 0px; /* Distância maior da borda inferior */
+    margin-left: 8px; /* Margem esquerda do relógio */
+    margin-right: 8px; /* Margem direita do relógio */
+}
